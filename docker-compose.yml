@@ -20,7 +20,7 @@ services:
       - "TMOD_PASS="
       - "TMOD_MAXPLAYERS=4"
       # The following world settings are only used when generating a new world.
-      - "TMOD_WORLDNAME=Earth"
+      - "TMOD_WORLDNAME=Grizzly_world"
       - "TMOD_WORLDSIZE=2"
       - "TMOD_WORLDSEED=not the bees!"
       - "TMOD_DIFFICULTY=3"
