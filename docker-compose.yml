@@ -17,7 +17,6 @@ services:
       - "TMOD_AUTOSAVE_INTERVAL=5"
       # Server Settings
       - "TMOD_MOTD=Welcome to my tModLoader Server!"
-      - "TMOD_PASS="
       - "TMOD_MAXPLAYERS=4"
       # The following world settings are only used when generating a new world.
       - "TMOD_WORLDNAME=Grizzly_world"
