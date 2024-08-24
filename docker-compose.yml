@@ -33,11 +33,4 @@ services:
       - "./data:/data"
       # Uncomment the below line if you plan to use a mapped config file. 
       # - "/path/to/config/config.txt:/root/terraria-server/serverconfig.txt"
-    networks:
-      - proxy-internal
-
-
-
-networks:
-  proxy-internal:
-    external: true
+    
