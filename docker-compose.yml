@@ -31,7 +31,7 @@ services:
     labels:
       - "traefik.tcp.routers.tmodloader.entrypoints=tmodloader"
       - "traefik.tcp.routers.tmodloader.rule=HostSNI(`*`)"
-      - "traefik.udp.routers.tmodloader.entrypoints=tmodloader"
+      - "traefik.udp.routers.tmodloader.entrypoints=tmodloaderUDP"
     volumes:
     ##### By default, the below setting will create a data directory on your host where this compose file lives.
       - "./data:/data"
