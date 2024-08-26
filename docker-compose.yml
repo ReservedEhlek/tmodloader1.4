@@ -5,8 +5,8 @@ services:
     container_name: 'tmodloader'
     ports:
       - "7777:7777"
-    expose:
-      - "7777"
+    # expose:
+    #   - "7777"
     environment:
       # Download the Calamity mod and CalamityMusic mod.
       - "TMOD_AUTODOWNLOAD=2815010161,2908170107,2563309347,2909886416,3238219681,2797518634,2619954303,2669644269"
